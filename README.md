@@ -1,5 +1,7 @@
 # Refractive Eye Classifier
 
+[Link](https://dalemski-ai-eyes-refractive-error-interface-tbjovi.streamlit.app/)
+
 A deep-learning project that classifies retinal fundus images into **Normal Vision (0)** or **Myopia (1)** using a fine-tuned **ResNet18** model. The workflow includes dataset cleaning, image preprocessing/augmentation, handling class imbalance, model training/evaluation, and a small demo interface.
 
 ## What this project does
