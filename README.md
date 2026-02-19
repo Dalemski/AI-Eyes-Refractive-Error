@@ -1,4 +1,4 @@
-# Refractive Eye Classifier (Normal vs Myopia)
+# Refractive Eye Classifier
 
 A deep-learning project that classifies retinal fundus images into **Normal Vision (0)** or **Myopia (1)** using a fine-tuned **ResNet18** model. The workflow includes dataset cleaning, image preprocessing/augmentation, handling class imbalance, model training/evaluation, and a small demo interface.
 
@@ -8,6 +8,7 @@ A deep-learning project that classifies retinal fundus images into **Normal Visi
 -  **Output:** Binary prediction:
    -  `0` = Normal Vision
    -  `1` = Myopia
+-  **Grad-Cam** Explain in and showcase the areas of interest.
 -  **Model:** Transfer learning with `torchvision.models.resnet18`, with the final fully-connected layer replaced for binary classification.
 -  **Imbalance handling:** Uses class weighting via `BCEWithLogitsLoss(pos_weight=...)`.
 
