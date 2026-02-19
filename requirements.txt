@@ -8,3 +8,4 @@ Pillow
 scikit-learn
 opencv-python
 streamlit
+cv2
