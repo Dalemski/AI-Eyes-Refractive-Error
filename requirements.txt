@@ -1,11 +1,11 @@
+streamlit==1.54.0
 pandas
-kagglehub
 numpy
 matplotlib
 torch
 torchvision
 Pillow
 scikit-learn
-opencv-python
-streamlit
-cv2
+opencv-python-headless
+kagglehub
+altair==4.2.2
