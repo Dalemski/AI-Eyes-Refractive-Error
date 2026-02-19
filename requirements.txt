@@ -7,5 +7,10 @@ torchvision
 Pillow
 scikit-learn
 opencv-python-headless
+<<<<<<< HEAD
 kagglehub
 altair==4.2.2
+=======
+streamlit
+
+>>>>>>> 392da12400ea53afb1e662fb7f6ea3d9979445d8
